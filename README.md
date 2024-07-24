@@ -15,8 +15,8 @@ A website with two code editor windows side by side where users can type solutio
 - **Reason**: The `node_modules` directory can be very large and contains files that are not necessary to track in version control. Including these files would unnecessarily bloat the repository.
 - **Implementation**: Create a `.gitignore` file with the Node template to automatically ignore `node_modules` and other common Node-related files.
 
-'''markdown
 ## Project File Structure
+```markdown
 bigoanalyzer/
 ├── .firebase/ # Firebase configuration files
 ├── .firebaserc # Firebase project alias
@@ -32,4 +32,4 @@ bigoanalyzer/
 │ ├── index.js # Main file for Firebase Functions
 │ └── node_modules/ # Node.js dependencies for functions
 └── .git/ # Git directory for version control
-'''
+```
